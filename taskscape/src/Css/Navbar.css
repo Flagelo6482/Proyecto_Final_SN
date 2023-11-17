@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Logotipo */
+.logo {
+    cursor: pointer;
+}
+
+/* Barra de navegación */
+.contenedor_nav {
+    /* border: 1px solid black; */
+    border-bottom: 3px solid #7A50F2;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2); /* Box shadow para la parte inferior */
+}
+
+/* Contendor de Links */
+.rutas a {
+    margin: 0 25px;
+    border-radius: 5px;
+
+    padding: 10px 25px;
+    border: 1px solid black;
+}
+
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+
+/* Boton de Login/Registrarse */
+.btn_inicio {
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 10px 25px;
+}

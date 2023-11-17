@@ -1,0 +1,15 @@
+.ti_carac {
+    color: black;
+}
+.ti_carac {
+    text-align: center;
+    padding: 25px;
+    font-size: 44px;
+
+    background-image: url('../Imgs/carac.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.ti_carac h2 {
+    text-shadow: 3px 2px 4px #7A50F2;
+}

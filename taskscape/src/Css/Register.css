@@ -1,0 +1,59 @@
+/* BARRA DEL REGISTER */
+.img_register {
+    border-bottom: 3px solid #7A50F2;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* CONTENEDOR PRINCIPAL */
+.caja_register{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 30px 0px;
+
+    border: 1px solid black;
+}
+
+/* TITULO */
+.register_ttl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid red;
+}
+
+/* CAJA DE REGISTRO */
+.caja_datos_register {
+    width: 30%;
+    margin-top: 5%;
+    
+    border: 1px solid blue;
+}
+.caja_datos_register input {
+    width: 100%;
+}
+
+/* BOTON LOGIN */
+.btn_registe {
+    margin-top: 5%;
+
+    border: 1px solid green;
+}
+
+/* REDIRIGIRSE PARA INCIAR SESION */
+.redirigirse_register{
+    margin-top: 3%;
+
+    border: 1px solid aqua;
+}

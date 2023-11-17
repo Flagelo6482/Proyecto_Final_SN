@@ -1,0 +1,59 @@
+/* BARRA DEL LOGIN */
+.img_login {
+    border-bottom: 3px solid #7A50F2;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2); /* Box shadow para la parte inferior */
+}
+
+/* CONTENEDOR PRINCIPAL */
+.caja_login {
+    width: 40%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 30px 0px;
+
+    border: 1px solid black;
+}
+
+/* TITULO */
+.login_ttl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid red;
+}
+
+/* CAJA DE INICIO DE SESION */
+.caja_datos_login{
+    width: 30%;
+    margin-top: 5%;
+
+    border: 1px solid blue;
+}
+.caja_datos_login input {
+    width: 100%;
+}
+
+/* BOTON LOGIN */
+.btn_login {
+    margin-top: 5%;
+
+    border: 1px solid green;
+}
+
+/* REDIRIGIRSE PARA REGISTRARSE */
+.redirigirse_login {
+    margin-top: 3%;
+
+    border: 1px solid aqua;
+}

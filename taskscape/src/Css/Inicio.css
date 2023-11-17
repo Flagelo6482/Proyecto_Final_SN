@@ -1,0 +1,57 @@
+/* IMAGEN */
+.imagen_inicio {
+    height: 370px;
+    width: 564px;
+    height: 364px;
+}
+
+
+/* CONTENEDOR */
+.contenedor_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    max-width: 1500px;
+    margin: 20px auto;
+    position: relative;
+    margin-top: 80px;
+    
+
+    /* border: 1px solid black; */
+}
+
+h1 {
+    /* border: 1px solid black; */
+    font-size: 55px;
+    font-weight: bolder;
+    padding: 30px 0;
+}
+h1 span {
+    background-image: linear-gradient(to right, #7749F8, #0A9FC0);
+    color: transparent;
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (Chrome, Safari) */
+    background-clip: text;
+}
+
+.imagen_inicio {
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 10px;
+}
+
+
+/* ESLOGAN - FRASE */
+.frase {
+    width: 40%;
+    max-width: 1500px;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 18px;
+
+    /* border: 1px solid black; */
+    background-image: linear-gradient(to right, #865AFF, #00FFD1);
+    color: transparent;
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (Chrome, Safari) */
+    background-clip: text;
+
+}

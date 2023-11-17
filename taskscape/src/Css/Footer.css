@@ -1,0 +1,106 @@
+/* CONTENEDOR PRINCIPAL */
+.contendor_foo {
+    width: 100%;
+
+    border-top: 5px solid #7A50F2;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+/* CAJA DE ARRIBA */
+.c_1_foo {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid green; */
+}
+
+/*-------------------------------------------*/
+/* CAJA IZQUIERDA */
+.caja_izquierda_a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+/* IMG DEL FOOTER */
+.img_foo {
+    /* border: 1px solid red; */
+}
+/* TEXTO DE IZQUIERDO */
+.texto_arriba_1 {
+    padding: 10px 40px;
+    margin-left: 20px;
+
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+/* TEXTO DE DERECHA */
+.texto_arriba_2 {
+    padding: 10px 60px;
+    margin-right: 15px;
+
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* CAJA DE ABAJO */
+.c_2_foo {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid red; */
+}
+/*-------------------------------------------*/
+/* CAJA IZQUIERDA */
+.caja_izquierda_ab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.p_f {
+    margin-left: 40px;
+}
+/*-------------------------------------------*/
+/* CAJA DERECHA */
+.i_f {
+    margin-right: 20px;
+}
+
+
+
+
+
+/* IMAGENES */
+.git {
+    width: 46px;
+    height: 46px;
+}
+.link {
+    width: 46px;
+    height: 46px;
+}
+.face {
+    width: 46px;
+    height: 46px;
+}
+.yt {
+    width: 46px;
+    height: 46px;
+}
+.twi {
+    width: 46px;
+    height: 46px;
+}
